@@ -1,0 +1,474 @@
+
+/*
+ Author: Arif Afsar Pollob;
+ Email : guesswho8057032@gmail.com;
+/*
+
+/*
+ =========index=========
+ 	
+ 	1.Header
+ 	2.Books 
+ 	3.Courses
+ 	4.Others
+ 	5.Blog
+ 	6.Sign in
+ 	7.Footer
+
+/*
+
+/* Global CSS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	width: 100%;
+	float: left;
+	background: #F0FFF0;
+
+	
+
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+
+}
+
+img{
+	width: 250px;
+	float: left;
+}
+
+
+
+
+.no-padding{
+	padding: 0px;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+.nav-item{
+
+}
+
+.nav-item a{
+	color: #5A605A;
+	font-size: 16px;
+}
+
+.btn-one{
+	background: #21B573;
+	color: white;
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	padding: 8px 24px;
+	border: none;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+.header-content{
+	padding: 50px 0;
+
+}
+
+.header-content a{
+	color: #FB6735;
+	font-size: 16px;
+
+}
+
+.header-content h2{
+	font-size: 55px;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+
+.header-content p{
+	color: #8D908C;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 15px;
+
+}
+
+.header-content button{
+	background: #21B573;
+	color: white;
+	border-radius: 30px;
+	padding: 8px 24px;
+	border: none;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 30px 0;
+
+}
+
+.header-img {
+	padding: 50px 0;
+	
+}
+
+.header-img img{
+	width: 570px;
+	float: left;
+
+
+}
+
+.book{
+	width: 100%;
+	float: left;
+	padding: 70px 0px;
+}
+
+.books-name{
+
+}
+
+.book-img{
+	width: 80px;
+	height: 83px;
+	margin-bottom: 20px;
+}
+
+.books-name h2{
+	color: #413960;
+	font-size: 24px;
+	font-weight: 700;
+	
+	text-align: center;
+
+}
+
+.books-name p{
+	
+    text-align: center;
+    font-size: 16px;
+    color: #585859;
+}
+
+
+.online{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+	background-color: #F6F6F6;
+}
+
+.online-header{
+
+}
+
+.online-header h2{
+	font-weight: bold;
+	font-size: 37px;
+	margin-bottom: 35px;
+}
+
+.online-card{
+	width: 100%;
+	float: left;
+	
+	background-color: #F6F6F6;
+}
+
+.online-content{	
+
+
+}
+
+.online-content img{
+	margin-bottom: 15px;
+}
+
+.online-content h5{
+	font-size: 24px;
+	font-weight: 600;
+	color: #413960;
+
+
+
+	
+}
+
+.online-content p{
+	font-size: 16px;
+	color: #585859;
+	font-weight: normal;
+
+
+
+	
+}
+
+.btn-three{
+	background: #21B573;
+	color: white;
+	border-radius: 30px;
+	
+	padding: 8px 24px;
+	border: none;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+.calender{
+	 padding: 25px 0px;
+
+}
+
+.calender-img{
+	width: 5%;
+    margin: 0;
+
+}
+
+.people-img{
+	width: 5%;
+    margin: 0;
+    position: absolute;
+    right: 100px;
+    top: 408px;
+}
+
+.calender-content{
+
+}
+
+.calender-content h3{
+		
+ 	font-size: 13px;
+    position: absolute;
+   	top: 411px;
+    right: 230px;
+}
+	
+.people{
+	 padding: 25px 0px;
+
+}
+
+.people-content{
+
+}
+
+.people-content h3{
+	font-size: 13px;
+    position: absolute;
+    top: 411px;
+    right: 42px;
+	
+}
+
+.test-head{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+}
+
+.test-head h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.test-img{
+
+}
+
+.test-img img{
+	width: 55%;
+    margin-bottom: 100px;
+}
+
+.test-content{
+
+}
+
+.test-content p{
+
+ 	margin-left: -100px;
+}
+
+.blog-c{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+	background-color: #282531;
+}
+
+.blog-head{
+
+}
+
+.blog-head h3{
+	font-weight: 500;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+}
+
+.blog-content{
+
+}
+
+.blog-content ul{
+	list-style: none;
+}
+
+.blog-content ul li{
+	text-decoration: none;
+
+	
+}
+
+.blog-content ul li h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	
+}
+
+.blog-content ul li h3{
+		font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	
+
+	
+}
+
+footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	background-color: #282531;
+}
+
+/*Media query*/
+
+/*Mobile*/
+
+@media(max-width:620px){
+	
+.nav-item a{
+	text-align: center;
+}
+
+.header-content a{
+	display: block;
+	text-align: center;
+}
+
+.header-content h2{
+	text-align: center;
+}
+
+.header-content p{
+	text-align: center;
+}
+
+.header-content button{
+	margin: 0 auto;
+	display: block;
+}
+
+.header-img img {
+    width: 481px;
+    float: left;
+}
+
+.calender-content h3 {
+    font-size: 13px;
+    position: absolute;
+    top: 487px;
+    right: 329px;
+}
+
+.people-content h3 {
+    font-size: 13px;
+    position: absolute;
+    top: 486px;
+    right: 56px;
+}
+
+.people-img {
+    width: 5%;
+    margin: 0;
+    position: absolute;
+    right: 115px;
+    top: 480px;
+}
+
+.btn-three {
+    background: #21B573;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 24px;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 auto;
+    display: block;
+}
+
+.test-content p {
+   margin: 0;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.test-img img {
+    width: 35%;
+    margin-bottom: 0;
+    
+    margin-left: 150px;
+  
+}
+
+.blog-content ul li h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+   
+
+
+}
